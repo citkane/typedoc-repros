@@ -4,7 +4,7 @@
 	"typedoc": { 
 		"entryPoint": "src/mioUsers.ts"
 	},
-	"dependencies": {
+	"devDependencies": {
 		"@mio/tsconfig": "*"
 	}
 }
