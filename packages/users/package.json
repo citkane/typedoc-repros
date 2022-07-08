@@ -1,5 +1,8 @@
 {
 	"name": "@mio/users",
 	"main": "src/mioUsers",
-	"typedocMain": "src/mioUsers.ts"
+	"typedocMain": "src/mioUsers.ts",
+	"dependencies": {
+		"@mio/tsconfig": "*"
+	}
 }

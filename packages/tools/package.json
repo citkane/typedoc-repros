@@ -1,5 +1,9 @@
 {
 	"name": "@mio/tools",
 	"main": "src/mioTools",
-	"typedocMain": "src/mioTools.ts"
+	"typedocMain": "src/mioTools.ts",
+	"devDependencies": {
+		"@mio/tsconfig": "*"
+	}
 }
+
