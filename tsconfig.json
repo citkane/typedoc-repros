@@ -7,7 +7,6 @@
 		"outDir": "dist"
 	},
 	"references": [
-		{"path": "packages/scaffold"},
 		{"path": "packages/tools"},
 		{"path": "packages/users"}
 	]

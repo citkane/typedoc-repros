@@ -6,8 +6,8 @@
     "tsconfig"
   ],
   "scripts": {
-    "docs:resolve": "typedoc",
-    "docs:packages": "typedoc --entryPointStrategy Packages"
+    "docs": "typedoc",
+    "build": "tsc --build"
   },
   "devDependencies": {
     "@mio/tsconfig": "*",
