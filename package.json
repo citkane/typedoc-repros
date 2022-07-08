@@ -1,6 +1,6 @@
 {
-  "name": "@mio/scaffold",
-  "main": "./src/mioScaffold.ts",
+  "name": "mio",
+  "version": "0.0.0",
   "workspaces": [
     "packages/*",
     "tsconfig"
