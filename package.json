@@ -2,8 +2,8 @@
   "name": "@mio/scaffold",
   "main": "./src/mioScaffold.ts",
   "workspaces": [
-    "./packages/users",
-    "./packages/tools"
+    "packages/*",
+    "tsconfig"
   ],
   "scripts": {
     "docs:resolve": "typedoc",
