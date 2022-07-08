@@ -1,16 +1,20 @@
-## Minimal reproduction
-For [this](https://github.com/TypeStrong/typedoc/issues/1971#issuecomment-1177511075) issue.
+## Minimal configuration for a Typescript MonoREPO and TypeDocs
 
-When using `entryPointStrategy: Packages`, TypeDoc errors with:
-```
-error Unable to find any entry points. Make sure TypeDoc can find your tsconfig
-```
+This implements:
+- TypeDoc with a 'Packages' strategy
+- NPM with a 'workspace' strategy
+- Typescript compiling with a 'Project References' --build strategy
 
-To replicate, run:
+From the root dir, do `npm install`
 
+### To build code
 ```
-npm install
+npm run build
+```
+Builds to the `dist` folder
 
-npm run docs:resolve    //successful build
-npm run docs:packages   //build fails
+### To build documents
 ```
+npm run docs
+```
+Builds to the `docs` folder
