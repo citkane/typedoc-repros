@@ -1,0 +1,10 @@
+{
+	"extends": "@mio/tsconfig/commonjs.json",
+	"include": [
+		"src/mioScaffold.ts",
+		"./package.json"
+	],
+	"compilerOptions": {
+		"outDir": "../../dist/scaffold"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"name": "@mio/scaffold",
+	"main": "src/mioScaffold",
+	"typedoc": { 
+		"entryPoint": "src/mioScaffold.ts",
+		"readmeFile": "./README.md"
+	},
+	"dependencies": {
+		"@mio/tools": "*",
+		"@mio/users": "*",
+		"tsconfig": "^0.0.0"
+	},
+	"devDependencies": {
+		"@mio/tsconfig": "*"
+	}
+}
