@@ -1,7 +1,9 @@
 {
 	"name": "@mio/users",
 	"main": "src/mioUsers",
-	"typedocMain": "src/mioUsers.ts",
+	"typedoc": { 
+		"entryPoint": "src/mioUsers.ts"
+	},
 	"dependencies": {
 		"@mio/tsconfig": "*"
 	}
