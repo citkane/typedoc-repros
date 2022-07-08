@@ -7,8 +7,7 @@
 	},
 	"dependencies": {
 		"@mio/tools": "*",
-		"@mio/users": "*",
-		"tsconfig": "^0.0.0"
+		"@mio/users": "*"
 	},
 	"devDependencies": {
 		"@mio/tsconfig": "*"
