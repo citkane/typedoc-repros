@@ -8,7 +8,6 @@
 	},
 	"references": [
 		{"path": "packages/tools"},
-		{"path": "packages/users"},
-		{"path": "packages/scaffold"}
+		{"path": "packages/users"}
 	]
 }
