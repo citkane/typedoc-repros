@@ -1,9 +1,6 @@
 
+export type tooltype = string;
 export const foo = 'mioTools';
-export function tools(){
+export const tools = () => {
 	console.log('tools');
 }
-export default {
-	foo,
-	tools
-};
