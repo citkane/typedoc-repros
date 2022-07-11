@@ -1,7 +1,0 @@
-{
-	"extends": "./base.json",
-	"compilerOptions": {
-		"esModuleInterop": true,
-		"moduleResolution": "node"
-	}
-}
