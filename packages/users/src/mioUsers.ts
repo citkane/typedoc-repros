@@ -1,5 +1,7 @@
-export const foo = 'mioUsers';
-
+export const bar = 'mioUsers';
+export function users(){
+	console.log('users');
+}
 export default {
-	foo
+	bar
 };
