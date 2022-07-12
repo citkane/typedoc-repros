@@ -4,5 +4,7 @@
 		"packages/*"
 	],
 	"entryPointStrategy": "Packages",
-	"logLevel": "Verbose"
+	"logLevel": "Verbose",
+	"plugin": ["./customTheme/dist/src/index.js"],
+	"theme": "footer"
 }
